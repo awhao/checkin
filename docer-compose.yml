@@ -1,0 +1,24 @@
+version: '3.7'
+services:
+  elecv2p:
+    image: elecv2/elecv2p
+    container_name: elecv2p
+    restart: always
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    environment:
+      - TZ=Asia/Shanghai
+    ports:
+      - "8100:80"
+      - "8101:8001"
+      - "8102:8002"
+    volumes:
+      - "./data/JSFile:/usr/local/app/script/JSFile"
+      - "./data/Lists:/usr/local/app/script/Lists"
+      - "./data/Store:/usr/local/app/script/Store"
+      - "./data/Shell:/usr/local/app/script/Shell"
+      - "./data/rootCA:/usr/local/app/rootCA"
+      - "./data/efss:/usr/local/app/efss"
