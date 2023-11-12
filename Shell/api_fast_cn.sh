@@ -23,3 +23,5 @@ npm config set registry https://registry.npmmirror.com/
 mkdir -p ~/.cpan/CPAN
 mv ~/.cpan/CPAN/MyConfig.pm ~/.cpan/CPAN/MyConfig.pm.back
 wget https://gh-proxy.com/https://raw.githubusercontent.com/awhao/checkin/main/Shell/cpmConfig.pm -O ~/.cpan/CPAN/MyConfig.pm
+
+
