@@ -6,7 +6,7 @@
 
 ```sh
 ## ql repo命令拉取脚本时需要拉取的文件后缀，直接写文件后缀名即可
-RepoFileExtensions="js mjs py pyc sh toml"
+RepoFileExtensions="js mjs py pyc sh"
 ```
 
 根据推送需求更改config.sh文件，或者在设置中配置推送方式
@@ -28,7 +28,7 @@ bs4 cryptography dateparser feedparser peewee pyaes pyppeteer requests rsa sched
 ## 拉取仓库
 
 ```sh
-ql repo https://github.com/awhao/checkin.git "api_|ck_" "^checkin|ins_" "^notify|^utils|check" "main"
+ql repo https://github.com/awhao/checkin.git "api_|ck_" "^checkin|ins_" "^notify|^utils" "main"
 ```
 
 ## 修改toml

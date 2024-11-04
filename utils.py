@@ -7,7 +7,6 @@ import traceback
 import tomli
 
 import utils_env
-from utils_ver import print_ver
 
 # 缓存全局的环境
 DATA: dict = {}
@@ -19,7 +18,6 @@ def get_data() -> dict:
 
     :return: 签到配置文件对象
     """
-    print_ver()
     global DATA
     if DATA:
         return DATA
