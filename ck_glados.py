@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-:author @whao98
+:author @awhao
 cron: 11 6 * * *
 new Env('GLaDOS');
 """
@@ -78,7 +78,7 @@ class GLaDOS:
 
     @staticmethod
     def get_budget(vip_level: Optional[int]) -> dict:
-        budget_info = utils_tmp.budget_list
+        budget_info = utils_data.budget_list
         user_budgets = [
             i
             for i in budget_info
