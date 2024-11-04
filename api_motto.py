@@ -6,7 +6,7 @@ new Env('每日一句');
 
 import requests
 
-from notify_mtr import send
+from notify import send
 from utils import get_data
 
 

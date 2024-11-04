@@ -10,8 +10,8 @@ from typing import Optional
 
 import requests
 
-import utils_tmp
-from notify_mtr import send
+import utils_data
+from notify import send
 from utils import get_data
 
 COOKIE_NAMES = ['cookie']
