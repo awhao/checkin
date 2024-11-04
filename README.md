@@ -33,6 +33,7 @@ ql repo https://github.com/awhao/checkin.git "api_|ck_" "^checkin|ins_" "^notify
 
 ## 修改toml
 
+脚本管理 -> 点击右面的文件夹 -> 编辑check.toml
 
 ## 感谢
 

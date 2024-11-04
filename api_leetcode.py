@@ -14,7 +14,7 @@ from utils import get_data
 class LeetCode:
     @staticmethod
     def main():
-        base_url = "https://leetcode-cn.com"
+        base_url = "https://leetcode.cn/"
 
         # 获取今日每日一题的题名(英文)
         res = requests.post(
